@@ -1,0 +1,66 @@
+es:
+  routes:
+    contact: Contacto
+  layouts:
+    application:
+      company_name: Autotransportes Balderas | Fletes y Mudanzas
+      company_description: Autotransportes Balderas es desarrollador backend apasionado y entusiasta por la tecnología. Su experiencia se centra en el desarrollo de aplicaciones web.
+      company_domain: autotransportesbalderas.com
+      facebook_user: "@autotransportesbalderas"
+      twitter_user: "@autotransportesbalderas"
+    nav:
+      company_name: Autotransportes Balderas
+      home: Inicio
+      about: Sobre nosotros
+      services: Servicios
+      quotation: Cotizador
+      contact: Contacto
+      language: Lenguaje
+      es: Español
+      en: Ingles
+    footer:
+      help: AYUDA E INFORMACIÓN
+      coverage: Cobertura
+      shipping_policies: Políticas de Envío
+      frequent_questions: Preguntas Frecuentes
+      join: ¿Quieres afiliarte con nosotros?
+      special_services: Servicios Especiales
+      know_us: CONÓCENOS
+      blog: Blog
+      about_me: ¿Quiénes somos?
+      guarantee: Garantías
+      comments: Comentarios y Sugerencias
+      order: MI TRANSPORTE
+      order_status: Estatus de carga
+      invoices: Solicitar Mi Factura
+      payment_methods: Formas de Pago
+      banking_deposit: Reporta tu Depósito Bancario
+      contact_us: CONTÁCTANOS
+      doubts_and_comments: Dudas y Comentarios
+      mexico_city: Ciudad de México
+      mexico_city_contact_number: +52 (55) 1356-1309
+      copyrights: Copyrights © 2019
+      domain: autotransportesbalderas.com
+      copyright: Todos los Derechos Reservados |
+      company_name: Autotransportes Balderas
+  home:
+    index:
+      title: AUTOTRANSPORTES BALDERAS
+      subtitle: "- Fletes y Mudanzas -"
+      more: Cotizar
+    about:
+      title: AUTOTRANSPORTES BALDERAS
+      subtitle: "- Fletes y Mudanzas -"
+      paragraph: |
+        Somos una empresa 100% Mexicana, líder en la industria de fletes y mudanza nacional y local con más de 30 años prestando nuestros servicios.
+
+        En AUTOTRANSPORTES BALDERAS nos distinguimos entre otras empresas por cumplir con la puntualidad de entrega de sus pertenencias, con la mayor seguridad de que están en buenas manos, las cuales llegan en perfectas condiciones sin ningún golpe o ralladura. Donde garantizamos nuestro servicio, ya que contamos con personal calificado para el traslado de muebles y objetos a toda la república.
+    newsletter:
+      title: ¡ME INTERESA TU FEEDBACK!
+      subtitle: Si quieres estar informado puntualmente de todos las novedades sobre tutoriales y cursos relacionados con programación entonces, regístrate gratuitamente.
+      subscribe: Suscríbete
+      placeholder: nombre@servidor.com
+    quotation:
+      title: ¿Te vas a mudar pronto?
+      sign_up: Obten tu presupuesto ¡GRATIS!
+      company_name: Autotransportes Balderas

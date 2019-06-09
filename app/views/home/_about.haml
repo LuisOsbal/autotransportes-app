@@ -1,0 +1,15 @@
+%section.section.is-medium.has-white-backgroud#about
+  .container
+    .columns.is-vcentered
+      .column.is-6.has-text-centered
+        .section-media.animated.bounceInLeft
+          =image_tag("h100.png", alt: "Autotransportes Balderas", class: 'home-image')
+      .column.is-6
+        .section-header.animated.bounceInRight.has-text-centered
+          %h2.title.is-spaced.animated.fadeInDown
+            = t('.title')
+            %span
+            %h2.subtitle.is-focused
+              = t('.subtitle')
+            %h2.subtitle.large-subtitle.has-light-font-color.has-text-left
+              = simple_format(t('.paragraph'))

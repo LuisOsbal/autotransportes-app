@@ -1,0 +1,17 @@
+%header
+  %nav#navbar.navbar.is-fixed-top.has-shadow
+    .container
+      .navbar-brand
+        %a.navbar-item{:href => "/"}
+          =image_tag("autotransportes_balderas.png", border: 0, class: 'logo-brand', alt: "#{t('.company_name')}")
+        #navbarBurger.navbar-burger.burger{"data-target" => "navMenuIndex"}
+          %span
+          %span
+          %span
+      #navMenuIndex.navbar-menu
+        .navbar-end
+          %a.navbar-item.link{:href => "#home"}= t('.home')
+          %a.navbar-item.link{:href => "#about"}= t('.about')
+          %a.navbar-item.link{:href => "#services"}= t('.services')
+          %a.navbar-item.link{:href => "#quotation"}= t('.quotation')
+          %a.navbar-item.link.contact-modal-button{"aria-haspopup" => "true", "data-target" => "modal-ter"}= t('.contact')

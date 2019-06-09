@@ -1,0 +1,17 @@
+.hero.is-primary.is-bold
+  .hero-body
+    .container
+      .columns.is-centered
+        .column.is-12.is-10-fullhd
+          .columns.is-vcentered
+            .column.is-half
+              .title.animated.wow.pulse{"data-wow-delay" => "3s", "data-wow-duration" => "2s"}= t('.title')
+
+              .subtitle.animated.wow.fadeIn= t('.subtitle')
+            .column.is-half
+              = simple_form_for :subscribtion, :url => {:action => :create, :controller => :newsletters}, html: { class: "form-horizontal animated wow fadeIn"} do |f|
+                .field.has-addons
+                  .control.is-expanded
+                    %input.input.is-medium{:name => "email", :placeholder => "#{t('.placeholder')}", :required => "", :type => "email", :value => ""}
+                  .control
+                    = f.button :submit, "#{t('.subscribe')}", class: "button button is-primary is-inverted is-medium"

@@ -1,0 +1,297 @@
+@import "bulma";
+@import 'bulma-extensions';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto');
+@import "variables";
+
+.wow {
+  visibility: hidden;
+}
+
+.facebook {
+  color: $facebook;
+}
+
+.twitter {
+  color: $twitter;
+}
+
+.youtube {
+  color: $youtube;
+}
+
+.github {
+  color: $is-white;
+}
+
+.instagram {
+  color: $instagram;
+}
+
+.medium {
+  color: $medium;
+}
+
+.linkedin {
+  color: $linkedin;
+}
+
+.whatsapp {
+  color: $whatsapp;
+}
+
+.rss {
+  color: $rss;
+}
+
+.has-dark-blue-backgroud {
+  background: $is-dark-blue;
+}
+
+.has-blue-backgroud {
+  background: $is-blue;
+}
+
+.has-white-backgroud {
+  background: $is-white;
+}
+
+.has-light-font-color {
+  color: $light-font;
+}
+
+.has-strong-font-color {
+
+}
+
+.is-white {
+  color: $is-white;
+}
+
+.is-blue {
+  color: $is-blue;
+}
+
+.is-dark-blue {
+  color: $is-dark-blue;
+}
+
+.is-pink {
+  color: $is-pink;
+}
+
+
+// home
+.navbar-item img {
+  max-height: 4em;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.125;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.is-focused {
+  color: $is-pink;
+}
+
+// Services
+.hero.is-info {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(mexico.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.service-icon {
+  width: 110px;
+}
+
+// newsletter
+.hero.is-primary.is-bold {
+    background-image: linear-gradient(141deg, $is-dark-blue 0%, $is-dark-blue 71%, $is-dark-blue 100%);
+}
+
+.button.is-primary.is-inverted {
+  background: $is-pink;
+  color: $is-white;
+  &:hover {
+    background: $is-dark-pink;
+  }
+}
+// blog
+.shadow {
+  transition: box-shadow .3s;
+  border-radius:10px;
+}
+
+.shadow:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.service-title {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+// Quotation
+.main-button {
+  background: $is-orange;
+  border-color: $is-orange;
+  color: $is-white;
+  &:hover {
+    background-color: $is-hover-orange;
+    border-color: $is-hover-orange;
+    color: $is-white;
+  }
+}
+
+// footer
+.has-subtitle strong {
+  color: $is-white;
+}
+
+.has-subtitle a em {
+    display: block;
+    font-size: .875rem;
+    font-style: normal;
+}
+
+.has-subtitle a:not(:hover) em {
+    color: $very-light-font;
+}
+
+.is-title-footer {
+  font-weight: bold;
+}
+
+.is-linkable {
+  color: $is-white;
+  &:hover {
+    color: $is-blue;
+  }
+}
+
+// .is-blue-button {
+//   border-color: $is-blue;
+//   color: $is-blue;
+//   letter-spacing: 1px;
+//   &:hover {
+//     border-color: $is-hover-blue;
+//     background: $is-hover-blue;
+//     color: $is-white;
+//   }
+// }
+// // about
+// .is-paragraph {
+//   font-size: 1.1em;
+// }
+// // work experience
+// .timeline-marker.point {
+//   background: $is-pink;
+// }
+// // newsletter
+// .hero.is-primary.is-bold {
+//     background-image: linear-gradient(141deg, $is-dark-blue 0%, $is-dark-blue 71%, $is-dark-blue 100%);
+// }
+//
+// .button.is-primary.is-inverted {
+//   background: $is-pink;
+//   color: $is-white;
+//   &:hover {
+//     background: $is-dark-pink;
+//   }
+// }
+// // blog
+// .shadow {
+//   transition: box-shadow .3s;
+//   border-radius:10px;
+// }
+//
+// .shadow:hover {
+//   box-shadow: 0 0 11px rgba(33,33,33,.2);
+// }
+//
+// .service-title {
+//   text-align: center;
+//   font-size: 1.2em;
+//   font-weight: 600;
+// }
+//
+// // footer
+// .is-title-footer {
+//   font-weight: bold;
+//   font-size: 1.2em;
+// }
+//
+// .is-link-footer {
+//   color: $is-white;
+//   &:hover {
+//     color:  $is-hover-blue;
+//   }
+// }
+//
+// .has-subtitle strong {
+//   color: $is-white;
+// }
+//
+// .has-subtitle a em {
+//     display: block;
+//     font-size: .875rem;
+//     font-style: normal;
+// }
+//
+// .has-subtitle a:not(:hover) em {
+//     color: $very-light-font;
+// }
+//
+// .social {
+//   font-size: 1.5em;
+//   margin: 0 .2em 0 .2em;
+// }
+//
+// // episodes
+// iframe {
+//   height: 235px;
+//   width: 100%
+// }
+//
+// .explorer {
+//   font-size: 2em;
+// }
+//
+// .has-background-image {
+//   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), image-url("code.jpg") no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+//
+// .podcast-badges {
+//   height: 40px;
+//   width: 165px;
+// }
+//
+// /* On screens that are 600px or less, set the background color to olive */
+// @media screen and (min-width: 480px) {
+//   .large-title {
+//     font-size: 3.5em;
+//   }
+//
+//   .large-subtitle {
+//     font-size: 2em;
+//   }
+//
+//   .hire {
+//     display: block;
+//   }
+// }

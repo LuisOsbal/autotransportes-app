@@ -1,0 +1,65 @@
+%footer.footer.has-dark-blue-backgroud
+  .content
+    .container
+      .columns
+        .column.is-3.is-white
+          %p.is-title-footer= t('.help')
+          %p
+            %a.is-linkable{:href => "/"}= t('.coverage')
+          %p
+            %a.is-linkable{:href => "/"}= t('.shipping_policies')
+          %p
+            %a.is-linkable{:href => "/"}= t('.frequent_questions')
+          %p
+            %a.is-linkable{:href => "/"}= t('.join')
+          %p
+            %a.is-linkable{:href => "/"}= t('.special_services')
+        .column.is-3.is-white
+          %p.is-title-footer= t('.know_us')
+          %p
+            %a.is-linkable{:href => "https://medium.com/@LuisOsnet", target: '_blank'}= t('.blog')
+          %p
+            %a.is-linkable{:href => "/"}= t('.about_me')
+          %p
+            %a.is-linkable{:href => "/"}= t('.guarantee')
+          %p
+            %a.is-linkable{:href => "/"}= t('.comments')
+        .column.is-3.is-white
+          %p.is-title-footer= t('.order')
+          %p
+            %a.is-linkable{:href => "/"}= t('.order_status')
+          %p
+            %a.is-linkable{:href => "/"}= t('.payment_methods')
+          %p
+            %a.is-linkable{:href => "/"}= t('.banking_deposit')
+        .column.is-3.is-white
+          %p.is-title-footer= t('.contact_us')
+          %p.has-subtitle
+            %strong
+              =t('.mexico_city')
+            %a.is-linkable{:href => "tel:+525561967429"}
+              %em
+                =t('.mexico_city_contact_number')
+
+
+  .content.has-text-centered
+    %p
+      %a.social{:href => "https://twitter.com/LuisOsnet", target: '_blank'}
+        %span.icon.custom-icon
+          %i.fa.fab.fa-twitter.twitter
+      %a.social{:href => "https://www.youtube.com/channel/UCu2seQbq1ebMhGlMTtW1oDQ/", target: '_blank'}
+        %span.icon.custom-icon
+          %i.fa.fab.fa-youtube.youtube
+      %a.social{:href => "https://facebook.com/LuisOsnet", target: '_blank'}
+        %span.icon.custom-icon
+          %i.fa.fab.fa-facebook.facebook
+      %a.social{:href => "https://medium.com/@LuisOsnet", target: '_blank'}
+        %span.icon.custom-icon
+          %i.fa.fab.fa-medium.medium
+      %a.social{:href => "https://www.linkedin.com/in/luisosnet/", target: '_blank'}
+        %span.icon.custom-icon
+          %i.fa.fab.fa-linkedin.linkedin
+  .content.has-text-centered.is-white
+    %p
+      %span= t('.copyright')
+      %strong.company_name.is-blue= t('.company_name')

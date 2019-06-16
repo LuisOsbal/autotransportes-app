@@ -1,3 +1,7 @@
+// $(document).ready(function() {
+//    const instance = Layzr()
+// });
+
 carousel();
 
 document.addEventListener("turbolinks:load", function() {

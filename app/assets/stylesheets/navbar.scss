@@ -1,0 +1,38 @@
+// @import "bulma";
+// @import 'bulma-extensions';
+// @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto');
+@import "variables";
+
+// Navbar
+.navbar-item img {
+  max-height: 4em;
+}
+
+.separator {
+  border: none;
+  border-left: 1px solid $is-dark-blue;
+  height: auto;
+  width: 1px;
+  display: block;
+}
+
+.rol {
+  display: flex;
+  align-items: center;
+  font-size: .8em;
+  margin-left: 1em;
+  color: #9e9a9a;
+}
+
+.navbar-burger {
+  height: 5em;
+  // width: 5em;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1087px) {
+  .separator,
+  .rol {
+    display: none;
+  }
+}

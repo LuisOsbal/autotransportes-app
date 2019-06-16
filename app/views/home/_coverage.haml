@@ -1,13 +1,13 @@
-%section.section.is-white
+%section.section.is-white#coverage
   .hero-body
     .container.has-text-centered
       .columns.is-vcentered
-        .column.is-5.animated.zoomInLeft
+        .column.is-5
           %figure.image.is-4by3
             =image_tag("map.png", class: 'coverage-country', alt: "#{t('.company_name')}")
-        .column.is-6.is-offset-1.animated.zoomInRight
+        .column.is-6.is-offset-1
           %h5.title.is-2
             Contamos con cobertura en toda la Republica Mexicana.
           %br
           %p.has-text-centered
-            %a.button.is-medium.main-button{:href => ""} Ver más
+            %a.button.is-medium.call-to-action{:href => ""} Ver más

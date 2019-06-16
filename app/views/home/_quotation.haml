@@ -4,12 +4,12 @@
       .columns.is-centered
         .column.is-12.is-10-fullhd
           .columns.is-vcentered
-            .column.is-half
+            .column.is-half.animated.fadeInDown
               .title= t('.title')
               %br
               .field.is-grouped
                 .control
-                  %a.button.is-medium.main-button{:href => "/"}= t('.sign_up')
+                  %a.button.is-medium.call-to-action{:href => "/"}= t('.sign_up')
             .column.is-6
               .section-media
                 = image_tag("shop.png", alt: "#{t('.company_name')}")

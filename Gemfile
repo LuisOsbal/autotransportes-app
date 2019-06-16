@@ -16,6 +16,9 @@ gem 'bulma-extensions-rails'
 gem 'bulma-rails', '~> 0.7.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# jQuery Lazy Load for Rails image_tag helpers
+# gem "lazyload-rails"
+gem 'layzr-rails'
 # animate.css for rails.
 gem 'animate-rails'
 # Rails asset pipeline integration for WOW

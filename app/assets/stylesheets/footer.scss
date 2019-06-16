@@ -1,0 +1,36 @@
+@import "variables";
+
+// footer
+.has-subtitle strong {
+  color: $is-white;
+}
+
+.has-subtitle a em {
+    display: block;
+    font-size: .875rem;
+    font-style: normal;
+}
+
+.has-subtitle a:not(:hover) em {
+    color: $is-blue;
+}
+
+.is-title-footer {
+  font-weight: bold;
+}
+
+.is-linkable {
+  color: $is-white;
+  &:hover {
+    color: $is-pink;
+  }
+}
+
+.social {
+  font-size: 1.8em;
+  margin: 0 .2em 0 .2em;
+}
+
+.mailto, .call {
+  font-size: .8em;
+}

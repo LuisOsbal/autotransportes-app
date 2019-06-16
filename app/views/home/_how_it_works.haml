@@ -1,0 +1,22 @@
+%section.hero.how-it-works-section.has-blue-backgroud
+  .hero-body.hero-body-hp-main.padding-bottom-hp
+    .container
+      .columns
+        .column.is-4
+          .icon-container.has-text-centered
+            =image_tag("worker.png", alt: "Autotransportes Balderas")
+          %p.hiw-title.has-text-centered= t('.schedule')
+          .has-text-centered
+            %p.hiw-subtitle= simple_format(t('.worker_description'), class: 'is-paragraph')
+        .column.is-4
+          .icon-container.has-text-centered
+            =image_tag("coverage.png", alt: "Autotransportes Balderas")
+          %p.hiw-title.has-text-centered= t('.selection')
+          .has-text-centered
+            %p.hiw-subtitle= simple_format(t('.rout_description'), class: 'is-paragraph')
+        .column.is-4
+          .icon-container.has-text-centered
+            =image_tag("contact.png", alt: "Autotransportes Balderas")
+          %p.hiw-title.has-text-centered= t('.alert')
+          .has-text-centered
+            %p.hiw-subtitle= simple_format(t('.contact_description'), class: 'is-paragraph')

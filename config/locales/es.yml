@@ -3,7 +3,7 @@ es:
     contact: Contacto
   layouts:
     application:
-      company_name: Autotransportes Balderas | Fletes y Mudanzas
+      company_name: Fletes y Mudanzas | Autotransportes Balderas
       company_description: Autotransportes Balderas es desarrollador backend apasionado y entusiasta por la tecnología. Su experiencia se centra en el desarrollo de aplicaciones web.
       company_domain: autotransportesbalderas.com
       facebook_user: "@autotransportesbalderas"
@@ -13,6 +13,7 @@ es:
       home: Inicio
       about: Sobre nosotros
       services: Servicios
+      coverage: Cobertura
       quotation: Cotizador
       contact: Contacto
       language: Lenguaje
@@ -38,23 +39,35 @@ es:
       contact_us: CONTÁCTANOS
       doubts_and_comments: Dudas y Comentarios
       mexico_city: Ciudad de México
-      mexico_city_contact_number: +52 (55) 1356-1309
+      phone: "Teléfono: "
+      phone_number: +52 (55) 1356-1309
+      email: "Email:"
+      email_address: hola@autotransportesbalderas.com
       copyrights: Copyrights © 2019
       domain: autotransportesbalderas.com
       copyright: Todos los Derechos Reservados |
       company_name: Autotransportes Balderas
+
   home:
     index:
       title: AUTOTRANSPORTES BALDERAS
       subtitle: "- Fletes y Mudanzas -"
       more: Cotizar
     about:
-      title: AUTOTRANSPORTES BALDERAS
-      subtitle: "- Fletes y Mudanzas -"
+      title: La mejor experiencia en tu servicio de
+      focuse: fletes y mudanzas
       paragraph: |
         Somos una empresa 100% Mexicana, líder en la industria de fletes y mudanza nacional y local con más de 30 años prestando nuestros servicios.
 
-        En AUTOTRANSPORTES BALDERAS nos distinguimos entre otras empresas por cumplir con la puntualidad de entrega de sus pertenencias, con la mayor seguridad de que están en buenas manos, las cuales llegan en perfectas condiciones sin ningún golpe o ralladura. Donde garantizamos nuestro servicio, ya que contamos con personal calificado para el traslado de muebles y objetos a toda la república.
+        En <strong class="is-focused">AUTOTRANSPORTES BALDERAS</strong> nos distinguimos entre otras empresas por cumplir con la puntualidad de entrega de sus pertenencias, con la mayor seguridad de que están en buenas manos, las cuales llegan en perfectas condiciones sin ningún golpe o ralladura. Donde garantizamos nuestro servicio, ya que contamos con personal calificado para el traslado de muebles y objetos a toda la república.
+    how_it_works:
+      title: Beneficios en tu proyecto
+      selection: COBERTURA NACIONAL
+      rout_description: Viajamos a todos los rincones de la Republica Mexicana con salidas continuas a <strong class="is-focused">Los Cabos</strong>.
+      schedule: PERSONAL ESPECIALIZADO
+      worker_description: El personal de <strong class="is-focused">AUTOTRANSPORTES BALDERAS</strong> está capacitado para realizar un trabajo de calidad.
+      alert: PERSONALIZACIÓN
+      contact_description: La atención es personal en todo momento, desde la cotización hasta la planeación de tu mudanza.
     newsletter:
       title: ¡ME INTERESA TU FEEDBACK!
       subtitle: Si quieres estar informado puntualmente de todos las novedades sobre tutoriales y cursos relacionados con programación entonces, regístrate gratuitamente.
@@ -62,5 +75,19 @@ es:
       placeholder: nombre@servidor.com
     quotation:
       title: ¿Te vas a mudar pronto?
-      sign_up: Obten tu presupuesto ¡GRATIS!
+      sign_up: Obten tu presupuesto
       company_name: Autotransportes Balderas
+    coverage:
+      routs: Salidas continuas
+  shared:
+    contact_modal:
+      title: "Déjame un mensaje"
+      name: Nombre
+      email: Email
+      placeholder: nombre@servidor.com
+      phone: "Teléfono: "
+      phone_number: "+52 (55) 1111-1111"
+      message: Mensaje
+      placeholder_message: Describe tu mensaje
+      send: Enviar
+      cancel: Cancelar

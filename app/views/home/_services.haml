@@ -1,31 +1,64 @@
-%section.hero.is-info.is-fullheight#services
-  .hero-head
-    %nav.navbar
-      .container
-  .hero-body
-    .container.has-text-centered
-      .columns.is-multiline.has-text-centered
-        .column.is-3
-          =image_tag("icons/moving-truck.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Seguridad y protección a funcionarios
-        .column.is-3
-          =image_tag("icons/moving.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Seguridad en el traslado de bienes a bordo y en seguimiento
-        .column.is-3
-          =image_tag("icons/moving-loop.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Guardias intramuros
-        .column.is-3
-          =image_tag("icons/box.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Seguridad y protección a funcionarios
-        .column.is-3
-          =image_tag("icons/house.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Seguridad en el traslado de bienes a bordo y en seguimiento
-        .column.is-3
-          =image_tag("icons/box-package.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Guardias intramuros
-        .column.is-3
-          =image_tag("icons/moving-people.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Guardias intramuros
-        .column.is-3
-          =image_tag("icons/trolley-logistic.png", border: 0, class: 'service-icon', alt: "#{t('.company_name')}")
-          %h2.subtitle.service-item Guardias intramuros
+%section.section.is-medium.has-light-background#services
+  .container
+    .columns.is-vcentered
+      .column.has-text-centered
+        %h1.title.is-2
+          Servicios de alta calidad
+        %h2.subtitle
+          Conoce nuestros servicios de Seguridad Privada Mega especializada
+        %br
+    .columns.is-multiline
+      .column
+        %a{:href => "/es/services/1"}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/moving-truck.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Fletes y Mudanzas
+      .column
+        %a{:href => ""}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/boxes.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Almacemiento
+      .column
+        %a{:href => ""}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/packing.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Empaques
+      .column
+        %a{:href => ""}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/pulley.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Volado de muebles
+      .column
+        %a{:href => ""}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/crane.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Transporte de autos sin rodar
+      .column
+        %a{:href => ""}
+          .card.shadow.card-height
+            .level
+              .level-item
+                =image_tag("icons/moving.svg", border: 0, class: 'customer-item', alt: "#{t('.company_name')}")
+            .card-content
+              .media-content
+                %p.service-title.is-4 Servicios especiales

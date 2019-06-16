@@ -8,10 +8,19 @@
           %span
           %span
           %span
+      %hr.separator
+        %span.rol Fletes y Mudanzas
       #navMenuIndex.navbar-menu
         .navbar-end
-          %a.navbar-item.link{:href => "#home"}= t('.home')
-          %a.navbar-item.link{:href => "#about"}= t('.about')
-          %a.navbar-item.link{:href => "#services"}= t('.services')
-          %a.navbar-item.link{:href => "#quotation"}= t('.quotation')
-          %a.navbar-item.link.contact-modal-button{"aria-haspopup" => "true", "data-target" => "modal-ter"}= t('.contact')
+          - if controller_name.eql?("episodes")
+            %a.navbar-item.link{:href => "/"}= t('.home')
+            %a.navbar-item.link{:href => "/#about"}= t('.about')
+            %a.navbar-item.link{:href => "/#services"}= t('.services')
+            %a.navbar-item.link{:href => "/#coverage"}= t('.coverage')
+            %a.navbar-item.link.contact-modal-button{"aria-haspopup" => "true", "data-target" => "modal-ter"}= t('.contact')
+          - else
+            %a.navbar-item.link{:href => "#home"}= t('.home')
+            %a.navbar-item.link{:href => "#about"}= t('.about')
+            %a.navbar-item.link{:href => "#services"}= t('.services')
+            %a.navbar-item.link{:href => "#coverage"}= t('.coverage')
+            %a.navbar-item.link.contact-modal-button{"aria-haspopup" => "true", "data-target" => "modal-ter"}= t('.contact')

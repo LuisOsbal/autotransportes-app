@@ -2,11 +2,11 @@
   .hero-carousel.carousel.carousel-animated.carousel-animate-slide{"data-autoplay" => "true"}
     .carousel-container
       .carousel-item.has-background.is-active
-        =image_tag("01.jpg", alt: "#{t('.company_name')}", class: "is-background")
+        =image_tag("03.webp", alt: "#{t('.company_name')}", class: "is-background")
       .carousel-item.has-background
-        =image_tag("02.jpg", alt: "#{t('.company_name')}", class: "is-background")
+        =image_tag("02.webp", alt: "#{t('.company_name')}", class: "is-background")
       .carousel-item.has-background
-        =image_tag("03.jpg", alt: "#{t('.company_name')}", class: "is-background")
+        =image_tag("01.webp", alt: "#{t('.company_name')}", class: "is-background")
     .carousel-navigation.is-overlay
       .carousel-nav-left
         %i.fa.fa-chevron-left{"aria-hidden" => "true"}
@@ -16,19 +16,20 @@
     %section.section.is-hero
       .container
         .columns.is-vcentered
-          .column.is-6
+          .column.is-6.animated.fadeInDown
             .section-header
-              %h1.title.is-spaced.bg-header.animated.fadeInDown
+              %h1.title.is-spaced.bg-header
                 = t('.title')
                 %span
                 %h2.subtitle.is-focused
                   = t('.subtitle')
               %br
-              %a.button.is-medium.main-button{:href => "/"}= t('.more')
+              %a.button.is-medium.call-to-action{:href => "/"}= t('.more')
 = render :partial => 'about'
+= render :partial => 'how_it_works'
 = render :partial => 'services'
-= render :partial => 'coverage'
 = render :partial => 'quotation'
-= render :partial => 'customers'
+= render :partial => 'coverage'
+-# = render :partial => 'customers'
 -# = render :partial => 'newsletter'
 -# = render :partial => 'articles'

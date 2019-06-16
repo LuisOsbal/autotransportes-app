@@ -1,0 +1,23 @@
+@import "variables";
+
+.floating-number {
+    display: none;
+}
+
+.how-it-works-section img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.hiw-title {
+  color: $is-white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.hiw-subtitle {
+  color: $is-white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}

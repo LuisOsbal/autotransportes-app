@@ -1,0 +1,86 @@
+// @import "bulma";
+// @import 'bulma-extensions';
+// @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400|Roboto');
+@import "variables";
+
+// Services
+// .hero.is-info {
+//   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(mexico.jpg) no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+//
+// .service-icon {
+//   width: 110px;
+// }
+//
+// // newsletter
+// .hero.is-primary.is-bold {
+//     background-image: linear-gradient(141deg, $is-dark-blue 0%, $is-dark-blue 71%, $is-dark-blue 100%);
+// }
+//
+// .button.is-primary.is-inverted {
+//   background: $is-pink;
+//   color: $is-white;
+//   &:hover {
+//     background: $is-dark-pink;
+//   }
+// }
+
+
+.shadow {
+  transition: box-shadow .3s;
+  border-radius:10px;
+}
+
+.shadow:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.service-icon {
+  width: 110px;
+}
+
+.service-title {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.customer-item {
+  width: 120px;
+  transition-duration: .5s;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  &:hover {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+  }
+}
+
+.has-light-background {
+  background: #fdfdfd;
+}
+
+.card-height {
+  padding: 1em;
+  height: 280px;
+}
+
+// @media only screen and (min-width: 768px) {
+//   .card-height {
+//     height: 230px;
+//   }
+//
+//   .image-service {
+//     width: 50%;
+//   }
+// }

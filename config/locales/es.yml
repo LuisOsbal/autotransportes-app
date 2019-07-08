@@ -78,7 +78,9 @@ es:
       sign_up: Obten tu presupuesto
       company_name: Autotransportes Balderas
     coverage:
-      routs: Salidas continuas
+      title: Contamos con cobertura en toda la Republica Mexicana.
+      focuse: |
+        Salidas continuas a <strong class="is-focused">LOS CABOS</strong>
   shared:
     contact_modal:
       title: "Déjame un mensaje"

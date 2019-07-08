@@ -1,4 +1,4 @@
-%section.section.is-white#coverage
+%section.section#coverage
   .hero-body
     .container.has-text-centered
       .columns.is-vcentered
@@ -6,8 +6,6 @@
           %figure.image.is-4by3
             =image_tag("map.png", class: 'coverage-country', alt: "#{t('.company_name')}")
         .column.is-6.is-offset-1
-          %h5.title.is-2
-            Contamos con cobertura en toda la Republica Mexicana.
-          %br
-          %p.has-text-centered
-            %a.button.is-medium.call-to-action{:href => ""} Ver más
+          %h2.title.is-2.is-spaced
+            = t('.title')
+          %p= simple_format(t('.focuse'), class: 'is-paragraph')
